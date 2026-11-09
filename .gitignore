@@ -1,0 +1,77 @@
+# Local delivery and verification outputs
+/Release/
+/Builds/
+/Tools/
+/AGENTS.md
+
+# External model and game assets; see README for how to restore them
+/Pipeline/native-zero/model/
+/Pipeline/native-zero/source/
+/Pipeline/native-zero/blender/game/
+/Pipeline/native-zero/unreal/ProjectPBZ/Plugins/HuaShira/
+/Pipeline/native-zero/unreal/ProjectPBZ/Content/PBZContent/
+/Pipeline/native-zero/reference/native_body_mesh.json
+/Pipeline/native-zero/reference/native_skeleton_props.json
+
+# Downloadable generic agent skills; keep the project-specific skill below
+/.agents/*
+!/.agents/
+!/.agents/skills/
+/.agents/skills/*
+!/.agents/skills/phantom-blade-zero-mod/
+!/.agents/skills/phantom-blade-zero-mod/**
+
+# Downloadable third-party dependencies
+/vendor/
+/node_modules/
+/packages/
+/.nuget/
+/.venv/
+/venv/
+**/site-packages/
+**/.cache/
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.tgz
+
+# Unreal Engine generated directories
+**/Binaries/
+**/DerivedDataCache/
+**/Intermediate/
+**/Saved/
+**/.vs/
+**/Content/_QAZero/
+
+# Go build outputs and generated Windows resources
+**/bin/
+**/obj/
+*.exe
+*.dll
+*.pdb
+*.syso
+!/Release/*.exe
+
+# Python and Blender caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.blend1
+
+# Editor and operating-system noise
+/.vscode/
+/.idea/
+*.swp
+*.swo
+*.tmp
+*.bak
+*.log
+Thumbs.db
+Desktop.ini
+
+# Generated candidate/intermediate assets
+**/Candidate*

@@ -1,0 +1,34 @@
+{
+    "FileVersion":  3,
+    "EngineAssociation":  "5.7",
+    "Plugins":  [
+                    {
+                        "Name":  "PythonScriptPlugin",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "EditorScriptingUtilities",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "IKRig",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "HuaShira",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "ChaosClothAsset",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "ChaosClothAssetEditor",
+                        "Enabled":  true
+                    },
+                    {
+                        "Name":  "ChaosCloth",
+                        "Enabled":  true
+                    }
+                ]
+}

@@ -1,0 +1,377 @@
+[
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/ABPost/Pp_Hun_Cape.uasset",
+    "name": "Pp_Hun_Cape",
+    "type": "UNKNOWN"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/ABPost/Pp_Hun_Hair.uasset",
+    "name": "Pp_Hun_Hair",
+    "type": "UNKNOWN"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/ABPost/Pp_Hun_ShouldArmmor.uasset",
+    "name": "Pp_Hun_ShouldArmmor",
+    "type": "UNKNOWN"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/ABPost/Pp_Hun_Upcloth.uasset",
+    "name": "Pp_Hun_Upcloth",
+    "type": "UNKNOWN"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Cloth/CA_Hun_Cape.uasset",
+    "name": "CA_Hun_Cape",
+    "type": "ChaosClothAsset"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Cloth/CA_Hun_Cape_Climax.uasset",
+    "name": "CA_Hun_Cape_Climax",
+    "type": "ChaosClothAsset"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Cloth/CA_Hun_Hair01.uasset",
+    "name": "CA_Hun_Hair01",
+    "type": "ChaosClothAsset"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Cloth/CA_Hun_Hair02.uasset",
+    "name": "CA_Hun_Hair02",
+    "type": "ChaosClothAsset"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Cloth/CA_Hun_Skirt.uasset",
+    "name": "CA_Hun_Skirt",
+    "type": "ChaosClothAsset"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Cloth/CA_Hun_Skirt_Climax.uasset",
+    "name": "CA_Hun_Skirt_Climax",
+    "type": "ChaosClothAsset"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Cloth/CA_Hun_UpperCloth.uasset",
+    "name": "CA_Hun_UpperCloth",
+    "type": "ChaosClothAsset"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Cloth/CA_Hun_UpperCloth_Climax.uasset",
+    "name": "CA_Hun_UpperCloth_Climax",
+    "type": "ChaosClothAsset"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Cloth/Hun_Cape_Climax_Physics.uasset",
+    "name": "Hun_Cape_Climax_Physics",
+    "type": "PhysicsAsset"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Cloth/Hun_Cape_Physics.uasset",
+    "name": "Hun_Cape_Physics",
+    "type": "PhysicsAsset"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Cloth/Hun_Hair01.uasset",
+    "name": "Hun_Hair01",
+    "type": "SkeletalMesh"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Cloth/Hun_Hair02.uasset",
+    "name": "Hun_Hair02",
+    "type": "SkeletalMesh"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Cloth/Hun_Skirt_PhysicalAsset.uasset",
+    "name": "Hun_Skirt_PhysicalAsset",
+    "type": "PhysicsAsset"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Cloth/Hun_UpperCloth_PhysicalAsset.uasset",
+    "name": "Hun_UpperCloth_PhysicalAsset",
+    "type": "PhysicsAsset"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Cloth/Hun_cape_climax_sim.uasset",
+    "name": "Hun_cape_climax_sim",
+    "type": "SkeletalMesh"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Cloth/Hun_skirt_climax_render.uasset",
+    "name": "Hun_skirt_climax_render",
+    "type": "SkeletalMesh"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Cloth/Hun_skirt_render.uasset",
+    "name": "Hun_skirt_render",
+    "type": "SkeletalMesh"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Cloth/Hun_upperCloth_render01.uasset",
+    "name": "Hun_upperCloth_render01",
+    "type": "SkeletalMesh"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Cloth/Hun_upperCloth_render01_Climax.uasset",
+    "name": "Hun_upperCloth_render01_Climax",
+    "type": "SkeletalMesh"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Cloth/PA_Hun_Hair01.uasset",
+    "name": "PA_Hun_Hair01",
+    "type": "PhysicsAsset"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Cloth/hun_cape_sim01.uasset",
+    "name": "hun_cape_sim01",
+    "type": "SkeletalMesh"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Hun_Body.uasset",
+    "name": "Hun_Body",
+    "type": "SkeletalMesh"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Hun_Body_Simple.uasset",
+    "name": "Hun_Body_Simple",
+    "type": "SkeletalMesh"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Hun_BrowLashCard.uasset",
+    "name": "Hun_BrowLashCard",
+    "type": "SkeletalMesh"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Hun_BrowLashCardMoQu.uasset",
+    "name": "Hun_BrowLashCardMoQu",
+    "type": "SkeletalMesh"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Hun_Cape.uasset",
+    "name": "Hun_Cape",
+    "type": "SkeletalMesh"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Hun_Cape_PCL.uasset",
+    "name": "Hun_Cape_PCL",
+    "type": "PhysicsAsset"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Hun_Cape_PhysicsAsset.uasset",
+    "name": "Hun_Cape_PhysicsAsset",
+    "type": "PhysicsAsset"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Hun_Cape_Skeleton.uasset",
+    "name": "Hun_Cape_Skeleton",
+    "type": "Skeleton"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Hun_Cloth.uasset",
+    "name": "Hun_Cloth",
+    "type": "SkeletalMesh"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Hun_Cloth_Cape_Physics.uasset",
+    "name": "Hun_Cloth_Cape_Physics",
+    "type": "PhysicsAsset"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Hun_Cloth_Physics.uasset",
+    "name": "Hun_Cloth_Physics",
+    "type": "PhysicsAsset"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Hun_Cloth_Streamer_Physics.uasset",
+    "name": "Hun_Cloth_Streamer_Physics",
+    "type": "PhysicsAsset"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Hun_DownBody.uasset",
+    "name": "Hun_DownBody",
+    "type": "SkeletalMesh"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Hun_DownBody_PhysicsAsset.uasset",
+    "name": "Hun_DownBody_PhysicsAsset",
+    "type": "PhysicsAsset"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Hun_DownBody_Skeleton.uasset",
+    "name": "Hun_DownBody_Skeleton",
+    "type": "Skeleton"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Hun_DownCloth.uasset",
+    "name": "Hun_DownCloth",
+    "type": "SkeletalMesh"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Hun_DownCloth_PhysicsAsset.uasset",
+    "name": "Hun_DownCloth_PhysicsAsset",
+    "type": "PhysicsAsset"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Hun_DownCloth_Skeleton.uasset",
+    "name": "Hun_DownCloth_Skeleton",
+    "type": "Skeleton"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Hun_FrontBelt.uasset",
+    "name": "Hun_FrontBelt",
+    "type": "SkeletalMesh"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Hun_FrontBelt_PhysicsAsset.uasset",
+    "name": "Hun_FrontBelt_PhysicsAsset",
+    "type": "PhysicsAsset"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Hun_FrontBelt_Skeleton.uasset",
+    "name": "Hun_FrontBelt_Skeleton",
+    "type": "Skeleton"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Hun_FrontCloth.uasset",
+    "name": "Hun_FrontCloth",
+    "type": "SkeletalMesh"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Hun_FrontCloth_PhysicsAsset.uasset",
+    "name": "Hun_FrontCloth_PhysicsAsset",
+    "type": "PhysicsAsset"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Hun_FrontCloth_Skeleton.uasset",
+    "name": "Hun_FrontCloth_Skeleton",
+    "type": "Skeleton"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Hun_Hair.uasset",
+    "name": "Hun_Hair",
+    "type": "SkeletalMesh"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Hun_Hair_Band.uasset",
+    "name": "Hun_Hair_Band",
+    "type": "SkeletalMesh"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Hun_Hair_Band_PhysicsAsset.uasset",
+    "name": "Hun_Hair_Band_PhysicsAsset",
+    "type": "PhysicsAsset"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Hun_Hair_PCL.uasset",
+    "name": "Hun_Hair_PCL",
+    "type": "PhysicsAsset"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Hun_Hair_PhysicsAsset.uasset",
+    "name": "Hun_Hair_PhysicsAsset",
+    "type": "PhysicsAsset"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Hun_Hair_Skeleton.uasset",
+    "name": "Hun_Hair_Skeleton",
+    "type": "Skeleton"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Hun_Hat.uasset",
+    "name": "Hun_Hat",
+    "type": "SkeletalMesh"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Hun_Hat_PhysicsAsset.uasset",
+    "name": "Hun_Hat_PhysicsAsset",
+    "type": "PhysicsAsset"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Hun_Hat_Skeleton.uasset",
+    "name": "Hun_Hat_Skeleton",
+    "type": "Skeleton"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Hun_Head.uasset",
+    "name": "Hun_Head",
+    "type": "SkeletalMesh"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Hun_Head_New.uasset",
+    "name": "Hun_Head_New",
+    "type": "SkeletalMesh"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Hun_Head_New_MoQu.uasset",
+    "name": "Hun_Head_New_MoQu",
+    "type": "SkeletalMesh"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Hun_Head_Physics.uasset",
+    "name": "Hun_Head_Physics",
+    "type": "PhysicsAsset"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Hun_Head_scarf_PA.uasset",
+    "name": "Hun_Head_scarf_PA",
+    "type": "PhysicsAsset"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Hun_Rope01.uasset",
+    "name": "Hun_Rope01",
+    "type": "SkeletalMesh"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Hun_Scarf.uasset",
+    "name": "Hun_Scarf",
+    "type": "SkeletalMesh"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Hun_Scarf_Climax.uasset",
+    "name": "Hun_Scarf_Climax",
+    "type": "SkeletalMesh"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Hun_UpBody.uasset",
+    "name": "Hun_UpBody",
+    "type": "SkeletalMesh"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Hun_UpBody_PhysicsAsset.uasset",
+    "name": "Hun_UpBody_PhysicsAsset",
+    "type": "PhysicsAsset"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Hun_UpBody_Skeleton.uasset",
+    "name": "Hun_UpBody_Skeleton",
+    "type": "Skeleton"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Hun_UpCloth.uasset",
+    "name": "Hun_UpCloth",
+    "type": "SkeletalMesh"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Hun_UpCloth_PhysicsAsset.uasset",
+    "name": "Hun_UpCloth_PhysicsAsset",
+    "type": "PhysicsAsset"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Hun_UpCloth_Skeleton.uasset",
+    "name": "Hun_UpCloth_Skeleton",
+    "type": "Skeleton"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Hun_Waistless.uasset",
+    "name": "Hun_Waistless",
+    "type": "SkeletalMesh"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Hun_Waistless_PhysicsAsset.uasset",
+    "name": "Hun_Waistless_PhysicsAsset",
+    "type": "PhysicsAsset"
+  },
+  {
+    "path": "ProjectPBZ/Plugins/HuaShira/Content/Characters/Hero/Hero_Hun/SkinParts/Hun_Waistless_Skeleton.uasset",
+    "name": "Hun_Waistless_Skeleton",
+    "type": "Skeleton"
+  }
+]
