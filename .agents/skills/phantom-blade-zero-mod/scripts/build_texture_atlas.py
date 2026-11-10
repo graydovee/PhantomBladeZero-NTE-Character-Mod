@@ -69,6 +69,6 @@ report={'grid':[4,4],'texture_size':4096,'source_material_tiles':TILES,
         'negative_u_policy':'body2 adjacent repeated tiles, no vertex folding',
         'transparent_effect_layers':['eye_bantou','MI_common_face_mask'],
         'vertices':len(mesh.data.vertices),'triangles':len(mesh.data.polygons),
-        'uv_layers':len(mesh.data.uv_layers),'skeleton':'native Hun_Skin_Skeleton','runtime_verified':False}
+        'uv_layers':len(mesh.data.uv_layers),'skeleton':'native Hun_Skin_Skeleton'}
 (OUT/'atlas_report.json').write_text(json.dumps(report,indent=2),encoding='utf8')
 print('@@JSON@@'+json.dumps(report))

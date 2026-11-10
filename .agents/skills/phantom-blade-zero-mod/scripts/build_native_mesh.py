@@ -133,7 +133,6 @@ report={'source_checkpoint':str(ROOT / 'source/SK_ZeroBody_posed.blend'),
         'head_neck_vertical_offset_cm':shoulder_dz,
         'proportion_fit':proportion_fit,
         'sole_before_cm':sole_min,'sole_after_cm':min(p.z for p in points),
-        'forward_axis_after_ue_import':'+Y (same as native toes)',
-        'runtime_verified':False}
+        'forward_axis_after_ue_import':'+Y (same as native toes)'}
 (OUT / 'build_report.json').write_text(json.dumps(report, indent=2),encoding='utf-8')
 print('@@JSON@@'+json.dumps(report))

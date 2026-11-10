@@ -27,7 +27,7 @@ Read `AGENTS.md`, `Docs/current-state.md`, and `Docs/task.md` before changing fi
 7. Cook only intended paths. Package with a fail-closed allowlist, marker, and SHA-256 manifest. Reverse-extract the final IoStore using original Paks as read-only reference data.
 8. Validate cooked bones by name and parent, dependencies, BoneMaps, raw precision, weights, UVs, height, asset classes, geometry invariants, and Blender QA. Run elbow, knee, shoulder, head, hand, fist, finger, and terminal-tip stress tests.
 9. Confirm PBZ has exited, update `Release/Mods/zzz_NteZeroNative_P`, run PBZModKit `clean`/`install`/`status`, and compare build/repository/installed hashes.
-10. Ask for runtime evidence covering appearance, idle, movement, attacks, hit, dodge, stairs/jump, weapon grip/sheath, and stability. Keep `runtime_verified` false until that evidence exists.
+10. Ask for runtime evidence covering appearance, idle, movement, attacks, hit, dodge, stairs/jump, weapon grip/sheath, and stability, and record what the user confirmed in the delivery notes.
 
 ## Official references
 

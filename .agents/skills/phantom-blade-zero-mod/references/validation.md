@@ -29,13 +29,15 @@ Builds/current/
   zero_clean.blend/.fbx
   production_allowlist.json
   container/*.pak, *.utoc, *.ucas, SHA256SUMS.txt
-  cooked_mesh.json, cooked_props.json, cooked_validation.json
-  review/, detail/, source_asset_qa.json
+  cooked_mesh.json
+  source_asset_qa.json, refpose_validation.json
+  neck_finger_refinement.json, neck_deformation_validation.json
+  review/, detail/, grip_audit/
   installed_verification.json
   README.md
 ```
 
-The installer and installable package live in `Release/`. Source checkpoints and native dumps live under `Pipeline/native-zero/`. Reports contain `runtime_verified`, with its value derived from user evidence.
+The installer and installable package live in `Release/`. Source checkpoints and native dumps live under `Pipeline/native-zero/`. Delivery notes record which runtime behaviors the user confirmed and which remain open.
 
 ## Delivery gate
 

@@ -21,6 +21,6 @@ for row in json.loads((output/'mesh_refpose.json').read_text())['bones']:
     t=modifier.get_bone_transform(row['name'],False)
     assert (t.translation-u.Vector(*row['loc'])).length()<.001,row['name']
 report={'pass':True,'assets':paths,'bones':len(names),'root':names[0],
-        'materials':len(mesh.get_editor_property('materials')),'runtime_verified':False}
+        'materials':len(mesh.get_editor_property('materials'))}
 (output/'project_validation.json').write_text(json.dumps(report,indent=2),encoding='utf8')
 print('@@JSON@@'+json.dumps(report))

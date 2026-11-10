@@ -3,7 +3,9 @@ import json,hashlib,os
 from pathlib import Path
 import unreal as u
 ROOT=Path(os.environ.get('PBZ_WORKSPACE_ROOT', Path(__file__).resolve().parents[4])); QA=ROOT/'Builds/current'; OUT=Path(os.environ.get('PBZ_BUILD_DIR',str(QA)))
-assert json.loads((OUT/'clean_asset_report.json').read_text(encoding='utf8'))['asset_qa']['pass']
+qa_file=OUT/'clean_asset_report.json'
+if not qa_file.exists():qa_file=OUT/'source_asset_qa.json'
+assert json.loads(qa_file.read_text(encoding='utf8'))['asset_qa']['pass']
 record=json.loads((OUT/'refpose_validation.json').read_text(encoding='utf8'))
 assert not record['bad_refpose'] and record['root']=='root' and record['bones']==264
 EAL=u.EditorAssetLibrary; AT=u.AssetToolsHelpers.get_asset_tools()
@@ -87,5 +89,5 @@ for suffix in ('BC','N','ARM'):
     allow.append('Content/PBZContent/Characters/Hero/Hun_New_V2b/Textures/T_ZeroHun_Cap_V02_'+suffix+'.uasset')
 assert len(allow)==len(set(allow))
 (OUT/'production_allowlist.json').write_text(json.dumps(allow,indent=2),encoding='utf8')
-(OUT/'assembly_report.json').write_text(json.dumps({'source':record['mesh'],'assets':assembly,'native_skeleton_shipped':False,'native_physics_shipped':False,'material_instances_shipped':False,'runtime_verified':False},indent=2),encoding='utf8')
+(OUT/'assembly_report.json').write_text(json.dumps({'source':record['mesh'],'assets':assembly,'native_skeleton_shipped':False,'native_physics_shipped':False,'material_instances_shipped':False},indent=2),encoding='utf8')
 print('@@JSON@@'+json.dumps({'assets':len(assembly),'allowlist':len(allow)}))

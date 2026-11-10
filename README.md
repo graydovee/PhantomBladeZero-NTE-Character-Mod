@@ -10,7 +10,7 @@
 
 <https://github.com/graydovee/PhantomBladeZero-NTE-Zero-Mod/releases>
 
-下载 `PhantomBladeZero-NTE-Zero-Mod-v1.0.0.zip` 并解压，得到 `PBZModKit.exe`、`PBZModKit-cli.exe`、`Mods/` 下的两个 MOD 包和 `使用说明.md`。
+下载 `PhantomBladeZero-NTE-Zero-Mod-v1.0.1.zip` 并解压，得到 `PBZModKit.exe`、`PBZModKit-cli.exe`、`Mods/` 下的两个 MOD 包和 `使用说明.md`。
 
 1. 完全退出游戏。
 2. 运行 `PBZModKit.exe`，确认游戏目录（首次启动会自动探测 Steam 与 WeGame 的安装位置，也可以手动指定）。

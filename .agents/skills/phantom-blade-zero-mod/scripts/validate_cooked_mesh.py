@@ -45,6 +45,6 @@ assert 177<height<183,height
 props=next(x for x in json.loads((OUT/'cooked_props.json').read_text(encoding='utf8')) if x['Type']=='SkeletalMesh')
 assert props['Properties']['Skeleton']['ObjectPath'].startswith('/HuaShira/Characters/Hero/Hero_Hun/Hun_Skin_Skeleton.')
 assert all(x['Material']['ObjectPath'].startswith('/Game/PBZContent/Characters/Hero/Hun_New_V2b/Material/MI_ZeroHun_Cap_01_b.') for x in props['SkeletalMaterials'])
-report={'pass':True,'runtime_verified':False,'vertices':len(v),'triangles':len(d['indices'])//3,'bones':264,'height_cm':height,'unweighted':unweighted,'max_influences':max_infs,'zero_uv_faces':bad_uv,'changed_bone_lengths':lengths,'native_rotations_and_hierarchy_preserved':True,'animation_mode_translations_preserved':True}
+report={'pass':True,'vertices':len(v),'triangles':len(d['indices'])//3,'bones':264,'height_cm':height,'unweighted':unweighted,'max_influences':max_infs,'zero_uv_faces':bad_uv,'changed_bone_lengths':lengths,'native_rotations_and_hierarchy_preserved':True,'animation_mode_translations_preserved':True}
 (OUT/'cooked_validation.json').write_text(json.dumps(report,indent=2),encoding='utf8')
 print(json.dumps(report))

@@ -110,8 +110,7 @@ for i in changed:
 assert np.array_equal(coords,np.array([list(v.co) for v in mesh.data.vertices]))
 report={'baseline':str(BASE/'zero_clean.blend'),'tests':tests,'selected':best,
         'geometry_unchanged':True,'skeleton_unchanged':True,'body_weights_unchanged':True,
-        'modified_groups':sorted(names[i] for i in allowed_cols),'changed_vertices':len(changed),
-        'runtime_verified':False}
+        'modified_groups':sorted(names[i] for i in allowed_cols),'changed_vertices':len(changed)}
 (OUT/'grip_refinement.json').write_text(json.dumps(report,indent=2),encoding='utf8')
 for name in ('mesh_refpose.json','build_report.json','atlas_report.json','production_allowlist.json'):
     shutil.copy2(BASE/name,OUT/name)

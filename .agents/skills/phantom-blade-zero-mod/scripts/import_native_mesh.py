@@ -88,8 +88,7 @@ opts=u.AssetRegistryDependencyOptions(include_hard_package_references=True,inclu
 rawdeps=registry.get_dependencies(mesh_path,opts)
 deps=[str(x) for x in rawdeps] if rawdeps else []
 report={'mesh':mesh_path,'skeleton':mesh.skeleton.get_path_name(),
-        'bones':len(dst),'root':names[0],'bad_refpose':bad,'hard_dependencies':deps,
-        'runtime_verified':False}
+        'bones':len(dst),'root':names[0],'bad_refpose':bad,'hard_dependencies':deps}
 (OUT/'refpose_validation.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
 # Use game's existing material/shaders. Only these texture packages are shipped.
 texdir='/Game/PBZContent/Characters/Hero/Hun_New_V2b/Textures'

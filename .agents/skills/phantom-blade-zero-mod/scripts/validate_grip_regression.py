@@ -37,7 +37,7 @@ props=lambda p:next(x for x in json.loads(p.read_text(encoding='utf8')) if x['Ty
 op,np=props(BASE/'cooked_props.json'),props(OUT/'cooked_props.json')
 for field in ('Skeleton','PhysicsAsset','PostProcessAnimBlueprint'):assert op['Properties'].get(field)==np['Properties'].get(field)
 assert [r['Material'] for r in op['SkeletalMaterials']]==[r['Material'] for r in np['SkeletalMaterials']]
-result={'pass':True,'runtime_verified':False,'geometry_uv_triangles_and_skeleton_identical':True,
+result={'pass':True,'geometry_uv_triangles_and_skeleton_identical':True,
         'non_thumb_weights_identical':True,'changed_cooked_vertices':len(changed),'changed_groups':sorted(groups),'stress_comparison':comparison}
 (OUT/'regression_validation.json').write_text(json.dumps(result,indent=2),encoding='utf8')
 print(json.dumps(result,indent=2))
