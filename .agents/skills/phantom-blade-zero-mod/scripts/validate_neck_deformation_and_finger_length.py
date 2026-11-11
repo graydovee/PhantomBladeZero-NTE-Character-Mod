@@ -6,7 +6,7 @@ from mathutils import Matrix, Quaternion, Vector
 
 ROOT = Path(os.environ.get('PBZ_WORKSPACE_ROOT', Path(__file__).resolve().parents[4]))
 BASE = Path(os.environ.get('PBZ_BASELINE_BUILD', str(ROOT/'Builds/v1.0.0')))
-OUT = Path(os.environ.get('PBZ_BUILD_DIR', str(ROOT/'Builds/current')))
+OUT = Path(os.environ.get('PBZ_BUILD_DIR', str(ROOT/'Builds'/os.environ.get('PBZ_MOD','zero')/'current')))
 a = json.loads(Path(os.environ.get('PBZ_BASELINE_COOKED', str(BASE/'cooked_mesh.json'))).read_text())
 b = json.loads((OUT/'cooked_mesh.json').read_text())
 refine = json.loads((OUT/'neck_finger_refinement.json').read_text())

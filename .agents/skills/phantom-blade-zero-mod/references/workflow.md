@@ -9,12 +9,27 @@
 | Native reference data | `Pipeline\native-zero\reference` |
 | Source input | `Pipeline\native-zero\model\zero` and `source` |
 | UE project | `Pipeline\native-zero\unreal\ProjectPBZ` |
-| Current build | `Builds\current` |
+| Character profile | `Pipeline\native-zero\mods\<profile>.json`（`zero`、`mint`） |
+| Current build | `Builds\<profile>\current` |
 | Reusable scripts | `.agents\skills\phantom-blade-zero-mod\scripts` |
 | Installer | `Release\PBZModKit-cli.exe` |
-| Delivery package | `Release\Mods\zzz_NteZeroNative_P` |
+| Delivery package | `Release\Mods\<MOD id>`（当前 `zzz_Nte_Zero_P`、`zzz_Nte_Mint_P`） |
 | Blender | `Tools\blender\blender-4.5.15-windows-x64\blender.exe` |
 | Extractor | `Tools\SkelDump\out\SkelDump.exe` |
+
+## Character profiles
+
+`mod_profile.py` resolves every path from the selected profile. Run build scripts with the profile that owns the character:
+
+```powershell
+$env:PBZ_MOD='zero'   # or 'mint'
+& python .agents\skills\phantom-blade-zero-mod\scripts\package_native.py --unreal-root 'C:\Program Files\Epic Games\UE_5.7' --version 1.0.2
+```
+
+- Build directories: `Builds/<profile>/current` plus immutable `Builds/<profile>/v<version>` snapshots.
+- Release directories: `Release/Mods/<MOD id>`; distribution archives come from `Profile.zip_names()`.
+- Installed mods share the hero slot with the game-defined container name: install one character at a time.
+- Uninstall the current mod before renaming or replacing its container, otherwise both containers stay in `~mods` and conflict.
 
 ## Investigation
 
@@ -54,8 +69,8 @@ Cook the UE project under `Pipeline\native-zero\unreal`. Package the cooked allo
 ```powershell
 if (Get-Process -Name PBZ -ErrorAction SilentlyContinue) { throw 'Exit game first' }
 & Release\PBZModKit-cli.exe clean
-& Release\PBZModKit-cli.exe install zzz_NteZeroNative_P
+& Release\PBZModKit-cli.exe install zzz_Nte_Zero_P
 & Release\PBZModKit-cli.exe status
 ```
 
-The installed directory must contain exactly `.pak`, `.utoc`, and `.ucas`. Compare SHA-256 across `Builds/current`, `Release/Mods`, and the game `~mods` directory. Keep a current manifest and a restore path through PBZModKit.
+The installed directory must contain exactly `.pak`, `.utoc`, and `.ucas`. Compare SHA-256 across `Builds/<profile>/current`, `Release/Mods/<MOD id>`, and the game `~mods` directory. Keep a current manifest and a restore path through PBZModKit.

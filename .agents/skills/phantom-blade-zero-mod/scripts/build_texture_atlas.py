@@ -2,7 +2,7 @@
 import json, sys, os
 from pathlib import Path
 ROOT=Path(os.environ.get('PBZ_WORKSPACE_ROOT', Path(__file__).resolve().parents[4]))
-OUT=Path(os.environ.get('PBZ_BUILD_DIR',str(ROOT/'Builds/current')))
+OUT=Path(os.environ.get('PBZ_BUILD_DIR',str(ROOT/'Builds'/os.environ.get('PBZ_MOD','zero')/'current')))
 TEX=ROOT/'Pipeline/native-zero/model/zero/textures'
 # Each source material has its own atlas tile. Body2 has two repeated tiles,
 TILES={0:(0,2),1:(1,1),2:(2,1),3:(3,1),4:(0,2),5:(1,2),6:(0,0),7:(2,0),8:(3,0),9:(0,1)}

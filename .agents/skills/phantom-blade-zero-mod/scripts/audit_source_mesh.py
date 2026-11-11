@@ -2,7 +2,7 @@
 import bpy, json, os, sys, types, collections
 from pathlib import Path
 ROOT=Path(os.environ.get('PBZ_WORKSPACE_ROOT', Path(__file__).resolve().parents[4]))
-OUT=Path(os.environ.get('PBZ_BUILD_DIR', str(ROOT/'Builds/current')))
+OUT=Path(os.environ.get('PBZ_BUILD_DIR', str(ROOT/'Builds'/os.environ.get('PBZ_MOD','zero')/'current')))
 bpy.ops.wm.open_mainfile(filepath=str(OUT/'zero_clean.blend'))
 mesh=next(o for o in bpy.data.objects if o.type=='MESH')
 # Re-point image datablocks at this build's atlas so the QA gate reads real files.

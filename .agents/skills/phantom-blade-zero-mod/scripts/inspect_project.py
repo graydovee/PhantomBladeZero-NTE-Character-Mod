@@ -4,7 +4,7 @@ from pathlib import Path
 import unreal as u
 
 workspace=Path(os.environ.get('PBZ_WORKSPACE_ROOT', Path(__file__).resolve().parents[4]))
-output=Path(os.environ.get('PBZ_BUILD_DIR',str(workspace/'Builds/current')))
+output=Path(os.environ.get('PBZ_BUILD_DIR',str(workspace/'Builds'/os.environ.get('PBZ_MOD','zero')/'current')))
 u.AssetRegistryHelpers.get_asset_registry().scan_paths_synchronous(['/Game','/HuaShira'],True)
 hero='/HuaShira/Characters/Hero/Hero_Hun'
 paths={'mesh':hero+'/SkinParts/Hun_Body_Simple','skeleton':hero+'/Hun_Skin_Skeleton','physics':hero+'/PA_Hun',

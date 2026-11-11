@@ -1,0 +1,121 @@
+{
+  "profile": "zero",
+  "mod_id": "zzz_Nte_Zero_P",
+  "name": "零（异环）替换魂",
+  "description": "把主角「魂」换成《异环》女主「零」：外观、发型、衣装与材质整套替换，动作、连招和武器握持照常。",
+  "source_model_dir": "Pipeline/native-zero/model/zero",
+  "source_checkpoint": "Pipeline/native-zero/source/SK_ZeroBody_posed.blend",
+  "build_dir": "Builds/zero/current",
+  "release_dir": "Release/Mods/zzz_Nte_Zero_P",
+  "mesh_object": "SK_ZeroBody",
+  "zip_prefix": "PhantomBladeZero-NTE-Character-Mod",
+  "atlas_grid": 4,
+  "atlas_size": 4096,
+  "atlas": {
+    "materials": [
+      {
+        "index": 0,
+        "tile": [
+          0,
+          2
+        ]
+      },
+      {
+        "index": 1,
+        "tile": [
+          1,
+          1
+        ],
+        "bc": "T_player_051_female_face_d.png"
+      },
+      {
+        "index": 2,
+        "tile": [
+          2,
+          1
+        ],
+        "bc": "T_player_051_female_eye_d.png"
+      },
+      {
+        "index": 3,
+        "tile": [
+          3,
+          1
+        ],
+        "bc": "T_player_051_female_face_d.png"
+      },
+      {
+        "index": 4,
+        "tile": [
+          0,
+          2
+        ]
+      },
+      {
+        "index": 5,
+        "tile": [
+          1,
+          2
+        ],
+        "fill": [
+          255,
+          255,
+          255,
+          255
+        ]
+      },
+      {
+        "index": 6,
+        "tile": [
+          0,
+          0
+        ],
+        "bc": "T_player_051_female_1_d.png",
+        "normal": "T_player_051_female_1_n.png"
+      },
+      {
+        "index": 7,
+        "tile": [
+          2,
+          0
+        ],
+        "bc": "T_player_051_female_2_d.png",
+        "normal": "T_player_051_female_2_n.png",
+        "extra_tiles": [
+          [
+            1,
+            0
+          ]
+        ]
+      },
+      {
+        "index": 8,
+        "tile": [
+          3,
+          0
+        ],
+        "bc": "T_player_009_female_hair_01_d.png"
+      },
+      {
+        "index": 9,
+        "tile": [
+          0,
+          1
+        ],
+        "bc": "T_player_009_female_hair_02_d.png"
+      }
+    ],
+    "remove_materials": [
+      0,
+      4
+    ],
+    "transparent_layers": [
+      "eye_bantou",
+      "MI_common_face_mask"
+    ]
+  },
+  "eye_material": "eye",
+  "alpha_policy": "opaque",
+  "finger_skin_scale": 0.95,
+  "neck_scale": 1
+}

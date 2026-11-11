@@ -11,15 +11,16 @@ Nexus 后台的写接口（`POST /api/flamework/mods/save`）会被 Cloudflare m
 - Mod Name：Zero (Neverness to Everness) - Playable Protagonist Replacement
 - 短描述（Nexus 落库会截到约 87 字符，只保留第一句）：
   Replaces Phantom Blade Zero's playable protagonist with Zero from Neverness to Everness. Install and uninstall with the included PBZModKit.
-- Mod version：1.0.1
+- Mod version：1.0.2
 - Game / Category / Author / Language：Phantom Blade Zero / Characters / graydovee / Any
 - Tags：Textures
 - Generative AI usage：AI assisted with build and packaging scripts
 
 ## 文件
 
-- 主文件：PhantomBladeZero-NTE-Zero-Mod，Category Main，每次版本更新用 Update existing file 覆盖并保留 Previous files。
-- 上传包：`zzz_NteZeroNative_P-v{version}.zip`（三件套 + allowlist.json + mod.json + README.md + SHA256SUMS.txt），不含安装器。
+- 主文件：显示名 `PhantomBladeZero-NTE-Character-Mod-zzz_Nte_Zero_P`（历史记录名为 PhantomBladeZero-NTE-Zero-Mod，改名后保持同一文件记录），Category Main，每次版本更新用 Update existing file 覆盖并保留 Previous files。
+- 上传包：`zzz_Nte_Zero_P-v{version}.zip`（三件套 + allowlist.json + mod.json + README.md + SHA256SUMS.txt），不含安装器。
+- 同一时间只能装一个角色包：安装前先卸载其它角色 MOD（共用主角槽位）。
 
 ## 完整描述（BBCode）
 
@@ -28,15 +29,15 @@ Nexus 后台的写接口（`POST /api/flamework/mods/save`）会被 Cloudflare m
 [size=4][b]Description[/b][/size]
 This mod replaces Phantom Blade Zero's playable protagonist with Zero from Neverness to Everness, so you can play the game as Zero.
 
-[size=4][b]Changes in 1.0.1[/b][/size]
-- The neck is back to the native proportion and now bends across neck_01, neck_02 and head instead of turning as one rigid column.
-- Finger skin is shortened by 5% along each finger chain.
+[size=4][b]Changes in 1.0.2[/b][/size]
+- Repackaged for the multi-character release naming: the MOD id is now zzz_Nte_Zero_P.
+- Game content is unchanged. The cooked mesh, textures and materials are byte-identical to 1.0.1; only the container name and version marker differ.
 
 [size=4][b]Installation[/b][/size]
 [b]1.[/b] Fully exit Phantom Blade Zero.
 [b]2.[/b] Extract the archive anywhere and run [b]PBZModKit.exe[/b].
 [b]3.[/b] If the game folder is not detected automatically, point the kit at your install (Steam or WeGame).
-[b]4.[/b] Select [b]zzz_NteZeroNative_P[/b], install, then launch the game.
+[b]4.[/b] Select [b]zzz_Nte_Zero_P[/b], install, then launch the game.
 
 [b]Uninstall:[/b] open PBZModKit.exe again and uninstall the mod.
 
@@ -55,15 +56,15 @@ This is a free, non-official fan project and is not affiliated with S-Game or th
 [size=4][b]简介[/b][/size]
 本 MOD 将《影之刃零》的可玩主角替换为《异环》的零，让玩家以零的身份游玩。
 
-[size=4][b]1.0.1 改动[/b][/size]
-- 颈部恢复原生比例，改由 neck_01、neck_02、head 分段驱动，不再是整根刚性转动。
-- 手指皮肤沿骨链缩短 5%。
+[size=4][b]1.0.2 改动[/b][/size]
+- 配合多角色发行命名为 MOD id：zzz_Nte_Zero_P。
+- 游戏内容不变：cooked 网格、贴图与材质与 1.0.1 逐字节一致，仅容器名与版本标记不同。
 
 [size=4][b]安装[/b][/size]
 [b]1.[/b] 完全退出游戏。
 [b]2.[/b] 将压缩包解压到任意位置，运行 [b]PBZModKit.exe[/b]。
 [b]3.[/b] 若未自动识别游戏目录，请手动指向游戏安装位置（Steam 或 WeGame）。
-[b]4.[/b] 选择 [b]zzz_NteZeroNative_P[/b] 安装，然后启动游戏。
+[b]4.[/b] 选择 [b]zzz_Nte_Zero_P[/b] 安装，然后启动游戏。
 
 [b]卸载：[/b]再次打开 PBZModKit.exe，卸载该 MOD 即可。
 

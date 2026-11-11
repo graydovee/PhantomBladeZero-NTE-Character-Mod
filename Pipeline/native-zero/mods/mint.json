@@ -1,0 +1,22 @@
+{
+  "profile": "mint",
+  "mod_id": "zzz_Nte_Mint_P",
+  "name": "薄荷（异环）替换魂",
+  "description": "把主角「魂」换成《异环》角色「薄荷」：外观、发型、衣装与材质整套替换，动作、连招和武器握持照常。",
+  "source_model_dir": "Pipeline/native-zero/model/mint",
+  "source_checkpoint": "Pipeline/native-zero/source/SK_MintBody_posed.blend",
+  "build_dir": "Builds/mint/current",
+  "release_dir": "Release/Mods/zzz_Nte_Mint_P",
+  "mesh_object": "SK_MintBody",
+  "zip_prefix": "PhantomBladeZero-NTE-Character-Mod",
+  "atlas_grid": 4,
+  "atlas_size": 4096,
+  "atlas": {
+    "materials": null,
+    "remove_materials": []
+  },
+  "eye_material": "eye",
+  "alpha_policy": "opaque",
+  "finger_skin_scale": 1,
+  "neck_scale": 1
+}

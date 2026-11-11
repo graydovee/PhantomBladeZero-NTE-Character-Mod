@@ -4,7 +4,7 @@ from pathlib import Path
 from collections import defaultdict
 from mathutils import Vector
 ROOT=Path(os.environ.get('PBZ_WORKSPACE_ROOT', Path(__file__).resolve().parents[4]))
-OUT=Path(os.environ.get('PBZ_BUILD_DIR',str(ROOT/'Builds/current')))
+OUT=Path(os.environ.get('PBZ_BUILD_DIR',str(ROOT/'Builds'/os.environ.get('PBZ_MOD','zero')/'current')))
 bpy.ops.wm.open_mainfile(filepath=str(OUT/'zero_atlas.blend'))
 mesh=next(o for o in bpy.data.objects if o.type=='MESH')
 arm=next(o for o in bpy.data.objects if o.type=='ARMATURE')

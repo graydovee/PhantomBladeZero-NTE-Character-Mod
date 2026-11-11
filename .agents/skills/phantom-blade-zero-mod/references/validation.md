@@ -25,8 +25,8 @@ The user must provide evidence for idle, walk, run, attack/combos, hit, dodge, s
 Keep the current build self-contained:
 
 ```text
-Builds/current/
-  zero_clean.blend/.fbx
+Builds/<profile>/current/
+  <character>_clean.blend/.fbx
   production_allowlist.json
   container/*.pak, *.utoc, *.ucas, SHA256SUMS.txt
   cooked_mesh.json

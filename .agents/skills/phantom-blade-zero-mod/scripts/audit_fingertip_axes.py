@@ -3,7 +3,7 @@ import bpy,json,os,sys,runpy
 from pathlib import Path
 import numpy as np
 from mathutils import Vector,Quaternion,Matrix
-ROOT=Path(os.environ.get('PBZ_WORKSPACE_ROOT', Path(__file__).resolve().parents[4]));QA=ROOT/'Builds/current'
+ROOT=Path(os.environ.get('PBZ_WORKSPACE_ROOT', Path(__file__).resolve().parents[4]));QA=ROOT/'Builds'/os.environ.get('PBZ_MOD','zero')/'current'
 OUT=Path(os.environ.get('PBZ_BUILD_DIR',str(QA)))
 bpy.ops.wm.open_mainfile(filepath=str(OUT/'zero_clean.blend'))
 mesh=next(o for o in bpy.data.objects if o.type=='MESH');arm=next(o for o in bpy.data.objects if o.type=='ARMATURE')

@@ -4,7 +4,7 @@ from pathlib import Path
 import unreal as u
 
 ROOT=Path(os.environ.get('PBZ_WORKSPACE_ROOT', Path(__file__).resolve().parents[4]))
-OUT=Path(os.environ.get('PBZ_BUILD_DIR',str(ROOT/'Builds/current')))
+OUT=Path(os.environ.get('PBZ_BUILD_DIR',str(ROOT/'Builds'/os.environ.get('PBZ_MOD','zero')/'current')))
 asset_name='NativeMesh_'+hashlib.sha256((OUT/'zero_clean.fbx').read_bytes()).hexdigest()[:10]
 mesh_path='/Game/NativeZero/'+asset_name
 u.AssetRegistryHelpers.get_asset_registry().scan_paths_synchronous(['/HuaShira','/Game'],True)

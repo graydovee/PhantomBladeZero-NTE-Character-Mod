@@ -2,7 +2,7 @@
 import json,math,sys,hashlib,os
 from pathlib import Path
 WORKSPACE=Path(os.environ.get('PBZ_WORKSPACE_ROOT', Path(__file__).resolve().parents[4]))
-QA=WORKSPACE/'Builds/current'
+QA=WORKSPACE/'Builds'/os.environ.get('PBZ_MOD','zero')/'current'
 OUT=Path(sys.argv[1])
 d=json.loads((OUT/'cooked_mesh.json').read_text())
 native=json.loads((WORKSPACE/'Pipeline/native-zero/reference/native_body_mesh.json').read_text())['bones']

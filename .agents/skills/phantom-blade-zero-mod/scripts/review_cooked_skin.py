@@ -10,7 +10,7 @@ import numpy as np
 from mathutils import Matrix, Quaternion, Vector
 
 ROOT = Path(os.environ.get('PBZ_WORKSPACE_ROOT', Path(__file__).resolve().parents[4]))
-OUT = Path(os.environ.get('PBZ_BUILD_DIR',str(ROOT/'Builds/current')))
+OUT = Path(os.environ.get('PBZ_BUILD_DIR',str(ROOT/'Builds'/os.environ.get('PBZ_MOD','zero')/'current')))
 SRC = OUT / 'cooked_mesh.json'
 SKILLS = ROOT / '.agents/skills/blender-asset-qa/scripts'
 sys.path.insert(0, str(SKILLS))

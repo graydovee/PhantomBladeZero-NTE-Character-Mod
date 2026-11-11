@@ -5,7 +5,7 @@ import numpy as np
 from mathutils import Matrix, Quaternion, Vector
 
 ROOT = Path(os.environ.get('PBZ_WORKSPACE_ROOT', Path(__file__).resolve().parents[4]))
-QA = ROOT/'Builds/current'
+QA = ROOT/'Builds'/os.environ.get('PBZ_MOD','zero')/'current'
 BASE = Path(os.environ.get('PBZ_INPUT_BUILD', str(QA)))
 OUT = Path(os.environ['PBZ_BUILD_DIR'])
 assert OUT.resolve() != BASE.resolve(), 'Choose a distinct working output directory'

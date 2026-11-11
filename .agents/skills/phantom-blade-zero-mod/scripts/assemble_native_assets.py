@@ -2,7 +2,7 @@
 import json,hashlib,os
 from pathlib import Path
 import unreal as u
-ROOT=Path(os.environ.get('PBZ_WORKSPACE_ROOT', Path(__file__).resolve().parents[4])); QA=ROOT/'Builds/current'; OUT=Path(os.environ.get('PBZ_BUILD_DIR',str(QA)))
+ROOT=Path(os.environ.get('PBZ_WORKSPACE_ROOT', Path(__file__).resolve().parents[4])); QA=ROOT/'Builds'/os.environ.get('PBZ_MOD','zero')/'current'; OUT=Path(os.environ.get('PBZ_BUILD_DIR',str(QA)))
 qa_file=OUT/'clean_asset_report.json'
 if not qa_file.exists():qa_file=OUT/'source_asset_qa.json'
 assert json.loads(qa_file.read_text(encoding='utf8'))['asset_qa']['pass']

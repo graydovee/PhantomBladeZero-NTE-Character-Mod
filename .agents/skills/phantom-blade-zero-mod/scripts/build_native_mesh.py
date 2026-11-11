@@ -9,7 +9,7 @@ from mathutils import Matrix, Vector
 
 ROOT = Path(os.environ.get('PBZ_WORKSPACE_ROOT', Path(__file__).resolve().parents[4])) / 'Pipeline' / 'native-zero'
 SCRIPT_ROOT = Path(__file__).resolve().parent
-OUT = Path(os.environ.get('PBZ_BUILD_DIR',str(ROOT.parents[2]/'Builds/current')))
+OUT = Path(os.environ.get('PBZ_BUILD_DIR',str(ROOT.parents[2]/'Builds'/os.environ.get('PBZ_MOD','zero')/'current')))
 OUT.mkdir(parents=True, exist_ok=True)
 sys.path.insert(0,str(SCRIPT_ROOT))
 from bone_roles import MAIN,FOLD

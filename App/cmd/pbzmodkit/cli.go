@@ -30,7 +30,7 @@ const cliUsage = `PBZModKit 命令行版
 
 示例:
   PBZModKit-cli.exe status
-  PBZModKit-cli.exe install zzz_NteZeroNative_P
+  PBZModKit-cli.exe install zzz_Nte_Zero_P
 `
 
 func runCLI(args []string) int {
