@@ -26,3 +26,8 @@
 - 安装指纹：`Builds/current/installed_verification.json`
 
 安装包、仓库包与已安装三件套 SHA-256 已核对一致。每次更新通过 PBZModKit 管理。
+
+## 发布渠道
+
+- GitHub：[v1.0.1](https://github.com/graydovee/PhantomBladeZero-NTE-Zero-Mod/releases/tag/v1.0.1)，资产为 `PhantomBladeZero-NTE-Zero-Mod-v1.0.1.zip`（安装器 + 两个 MOD + 使用说明）。
+- Nexus：[mod 948](https://www.nexusmods.com/phantombladezero/mods/948)，主文件 `PhantomBladeZero-NTE-Zero-Mod` 为 1.0.1，旧版本保留在 Previous files；上传包为 `zzz_NteZeroNative_P-v1.0.1.zip`。页面文案见 [nexus-mod-page.md](nexus-mod-page.md)。

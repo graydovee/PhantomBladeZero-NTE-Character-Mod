@@ -44,6 +44,7 @@
 **/Saved/
 **/.vs/
 **/Content/_QAZero/
+**/Content/NativeZero/
 
 # Go build outputs and generated Windows resources
 **/bin/
@@ -72,6 +73,9 @@ __pycache__/
 *.log
 Thumbs.db
 Desktop.ini
+
+# Local scratch directories for packaging and uploads
+/.nexus-pack/
 
 # Generated candidate/intermediate assets
 **/Candidate*
